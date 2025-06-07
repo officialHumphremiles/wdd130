@@ -1,9 +1,14 @@
+:root{
+    --heading-background-color:var(--heading-background-color)
+}
+color: #ffffff;
+}
 nav {
     background-color: darkblue;
     padding: 10px;
-}
+}}
 nav a{
-    color: white;
+    color: #ffffff;
     display: block;
     padding: 20px;
 }
@@ -88,3 +93,11 @@ footer{
   /* clear: both; */
 
 }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*class selectors */
