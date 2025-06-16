@@ -1,66 +1,84 @@
-:root{
-    --heading-background-color:var(--heading-background-color)
+:root {
+    --heading-background-color: var(--heading-background-color)
 }
+
 color: #ffffff;
 }
+
 nav {
     background-color: darkblue;
     padding: 10px;
-}}
-nav a{
+}
+}
+
+nav a {
     color: #ffffff;
     display: block;
     padding: 20px;
 }
+
 h1 {
- color:white ;
+    color: white;
 }
-img{
+
+img {
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 40px gray;
 }
-p{
+
+p {
     padding: 10px;
 }
+
 main {
     max-width: 840px;
 }
-aside{
+
+aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px; solid rgb(0 0 0 /0.2); 
+    border: 1px;
+    solid rgb(0 0 0 /0.2);
     padding: 1rem;
-    background-color:#eee ;
+    background-color: #eee;
     color: #333;
     text-align: center;
 }
-aside img{
+
+aside img {
     width: 200px;
     height: auto;
 }
-main img{
+
+main img {
     width: 150px;
     height: auto;
 }
-p{ padding: 0;}
+
+p {
+    padding: 0;
+}
+
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
 }
+
 .note {
     font-style: italic;
     font-weight: bold;
     color: navy;
-  }
-  
-  .editorial {
+}
+
+.editorial {
     background: rgb(255 0 0 / 0.2);
     padding: 10px;
-  }
+}
+
 #highlight {
     text-decoration: underline;
     background-color: lightyellow;
@@ -75,29 +93,33 @@ section {
     padding: 1rem;
     border: 1px solid rgb(0 0 0 / 0.1);
 }
-p{
+
+p {
     text-align: justify;
 }
-.col1 img{
+
+.col1 img {
     float: right;
     margin: 0 0 15px 15px;
     border: 1px solid rgba(0, 0, 0, / .3);
     box-shadow: 0 0 30px #777;
 }
-footer{
+
+footer {
     border-top: 1px solid #333;
     padding-top: 5px;
     text-align: left;
-    	/* Remove the comment below and observe the results. */
+    /* Remove the comment below and observe the results. */
 
-  /* clear: both; */
+    /* clear: both; */
 
 }
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /*class selectors */
