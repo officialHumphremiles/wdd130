@@ -8,15 +8,138 @@
     <meta name="descriptiom" content="A common layout on the web called the 'the holy grail'">
     <meta name="author" content="Leo Christabel">
     <main>
-        <div class="callout">
-            <img src="https://churchofjesuschrist.org/imgs/0d9965bac82711eda736eeeeac1e6a3620d4c7dc/full/500%2C/0/default" alt="Paul the Apostle" width="150" height="150">
-            <blockquote>
-                <p>11 Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content.</p>
-                <p>12 I know both how to be abased, and I know how to abound: every where and in all things I am instructed both to be full and to be hungry, both to abound and to suffer need.</p>
-                <p>13 I can do all things through Christ which strengtheneth me.</p>
-            </blockquote>
-            <cite>Philippians 4:11-13</cite>
-            <p></p>
-        </div>
-    </main>
+<body>
+    
+<h2>the alt attribnute</h2>
+<p>the alt attribute should reflect the image content, so users who cannot see the image 
+    get an understanding of what the image contain</p>
+    <img src="https://www.w3schools.com/html/img_girl.jpg" alt="girl with a jacket" width="500" height="600">
+    <hr>
+    <p><b>this text is bold</b></p>
+    <p><i>this is italic</i></p>
+    <p>this is <sub>subscript</sub> and <sup>superscript</sup></p>
+    <hr
+
+    <p> the pre tag preserve both spaces and line breaks:</p>
+    <pre>
+       <i>my Bonnie lies over the ocean.</i>
+       <i>my bonnie lies over the sea.</i> 
+       <i>my bonnie lies over the ocean.</i> 
+        <i>oh, my bring back my bonnie to me</i> 
+    </pre>
+
+    <hr>
+    <p> browsers usually insert quotation mark alround the q element.</p>
+    <p> WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+    <p>the <abbr title="World Health Organization">WHO</abbr> Was founded in 1948</p>
+    <p>Marking the abbreviations can give useful information to browers, translation systems and search-engines</p>
+<hr>
+<p>the HTML address element defines contact information (author/owner) of a document or article</p>
+<address>
+    written by John Doe.<br>
+    visit us at:<br>
+    Example.com<br>
+    Box 564, disneyland<br>
+    USA
+</address>
+
+<hr>
+    <h2>The HTML cite element defines the title of a work.</h2>
+    <p>Browsers usually display cite elements in italic.</p>
+
+    <img src="https://www.w3schools.com/html/img_the_scream.jpg" width="300" height="300" alt="The Scream">
+    <p><cite> the Scream </cite> by Edvard Munch. Painted in 1893</p>
+    </body>
+</hr>
+
+    <hr>
+    <link rel="stylesheet" href="Table.css">
+    <body>
+        <h2>HTML Table</h2>
+        <table>
+        <tr>
+            <th>company</th>
+            <th>contact</th>
+            <th>country</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Franciso Change</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+        </tr>
+        <tr>
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+            <td>Uk</td>
+        </tr>
+        <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Yoshi tannamuri</td>
+            <td>Canada</td>
+        </tr>
+        <tr>
+            <td>Magazzini Alimentari Riuntti</td>
+            <td>Giovonni Rovelli</td>
+            <td>italy</td>
+        </tr>
+    </table>
+    </body>
+</body>
+
+<hr>
+<body> 
+    <h2>Modified Table</h2>
+    <table class="container">
+        <caption> Front-end Web Developer Course
+        </caption>
+        <thead>
+         <tr>
+         <th scope="col">Department</th>  
+         <th scope="col"> Person</th>
+         <th scope="col"> Most Interest in</th>
+         <th scope="col">Age</th>
+         </tr>
+        </thead>
+          <tbody>
+            <tr>
+             <th rowspan="4">Accounting</th>
+             <th scope="row">Chris</th>
+             <td>HTML tables</td>
+             <td>22</td>
+            </tr>
+        <tr>
+            <th scope="row">Dennis</th>
+            <td>Web accessibility</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <th scope="row">Sarah</th> 
+            <td>JaveScript frameworks</td>
+            <td>29</td>
+        </tr>
+        <tr>
+            <th scope="row">Keren</th>
+            <td>Web perfromance</td>
+            <td>36</td>
+        </tr>
+          </tbody>
+        <tfoot>
+            <tr>
+            <th scope="row" colspan="3">Average Age</th>
+            <td>33</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
 </head>
